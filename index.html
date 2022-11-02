@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DataViz-Lab1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Data viz d3js lab 1</h1>
+    <div class="flex-container">
+      <div id="france"></div>
+      <div>
+        <div class="table-title">
+          <h3><-- Hover to view related infos</h3>
+        </div>
+        <table class="table-fill">
+          <thead>
+            <tr>
+              <th class="text-left">Place</th>
+              <th class="text-left">Postal code</th>
+            </tr>
+          </thead>
+          <tbody class="table-hover">
+            <tr>
+              <td id="name" class="text-left"></td>
+              <td id="postalCode" class="text-left"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="table-title">
+          <h3>box plot</h3>
+          <div id="boxPlot"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./js/d3.min.js"></script>
+  <script type="text/javascript" src="./js/BoxPlot.js"></script>
+  <script type="text/javascript" src="./js/load.js"></script>
+</html>
